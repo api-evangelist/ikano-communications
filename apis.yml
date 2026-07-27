@@ -1,8 +1,13 @@
 aid: ikano-communications
 name: IKANO Communications
-description: IKANO Communications is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: IKANO Communications, Inc. is a diversified consumer and business Internet company
+  founded in 1999 and headquartered in metropolitan Los Angeles, with additional offices in Salt Lake
+  City and Toronto, Canada. IKANO provides hosted voice services and broadband Internet access through
+  direct and wholesale/private-label channels. Its primary brands include Broadvoice, a provider of
+  feature-rich broadband phone (VoIP) service to consumers and businesses across the continental US and
+  Canada, and DSL Extreme, a provider of high-speed and traditional Internet access. IKANO is a wholly
+  owned subsidiary of Teutonic Holdings, LLC. The company publishes a marketing and corporate site only;
+  it exposes no public developer program, API, or machine-readable interface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ikano-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,28 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: http://www.ikano.com/apple-touch-icon.png
 tags:
 - Company
+- Telecommunications
+- Broadband
+- Internet Service Provider
+- Hosted Voice
+- VoIP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ikano-communications-domain-security.yml
 - type: Website
   url: http://www.ikano.com/
+- type: Support
+  url: http://www.ikano.com/contact
+- type: PrivacyPolicy
+  url: http://www.ikano.com/privacy
+- type: Blog
+  url: http://www.ikano.com/news
+- type: BlogRSS
+  url: http://www.ikano.com/press.xml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
